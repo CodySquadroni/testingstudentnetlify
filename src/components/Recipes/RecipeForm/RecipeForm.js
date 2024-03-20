@@ -65,7 +65,6 @@ const RecipeForm = (props) => {
           },
         }
       );
-      const data = await response.json();
     }
 
     addRecipeHandler(recipe);
