@@ -42,7 +42,7 @@ const AvailableRecipes = () => {
     };
 
     fetchRecipes();
-  }, []);
+  }, [httpError]);
 
   if (isLoading) {
     return (
