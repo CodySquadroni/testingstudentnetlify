@@ -1,0 +1,42 @@
+.recipe {
+  margin: auto;
+  width: 80vw;
+  max-width: 50rem;
+}
+.recipe ul {
+  list-style-type: none;
+  padding: 0;
+  color: whitesmoke;
+}
+.recipe ul li {
+  border-bottom: 1px solid rgb(29, 29, 29);
+  padding-bottom: 10px;
+}
+.loading {
+  color: whitesmoke;
+  text-align: center;
+}
+.error {
+  color: rgb(156, 40, 40);
+  text-align: center;
+}
+.recipe .fetch {
+  background-color: rebeccapurple;
+  width: 65vw;
+  max-width: 45rem;
+}
+button {
+  background-color: rgb(48, 48, 48);
+  border: 1px solid rgb(29, 29, 29);
+  border-radius: 10px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 10px;
+  height: auto;
+  width: 100%;
+}
+button:hover {
+  background-color: rgb(58, 58, 58);
+}

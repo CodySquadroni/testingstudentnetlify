@@ -1,0 +1,37 @@
+.add {
+  background-color: rgb(48, 48, 48);
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  color: whitesmoke;
+  padding: 1rem;
+  position: relative;
+  margin: 1rem auto 1rem;
+  max-width: 45rem;
+  text-align: center;
+  width: 65vw;
+}
+.button {
+  background-color: rgb(48, 48, 48);
+  border: 1px solid rgb(29, 29, 29);
+  border-radius: 10px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 10px;
+  height: auto;
+  width: 100%;
+}
+.button:hover {
+  background-color: rgb(58, 58, 58);
+}
+.form {
+  text-align: left;
+}
+.form button {
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  margin: 10px 10px 0 0;
+}

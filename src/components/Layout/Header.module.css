@@ -1,0 +1,26 @@
+.header {
+  background-color: rgb(34, 34, 34);
+  color: whitesmoke;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4rem;
+  width: 100vw;
+  padding: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+h1 {
+  line-height: 4rem;
+  padding: 0;
+  margin: 0 10px;
+}
+.img {
+  width: 100vw;
+  height: 25rem;
+  overflow: hidden;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
