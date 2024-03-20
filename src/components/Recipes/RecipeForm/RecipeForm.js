@@ -55,17 +55,24 @@ const RecipeForm = (props) => {
     console.log(recipe);
 
     async function addRecipeHandler(recipe) {
-      const response = await fetch(
-        "https://recipeapp-b5683-default-rtdb.firebaseio.com/recipes.json",
-        {
-          method: "POST",
-          body: JSON.stringify(recipe),
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
-      );
+      try {
+        await fetch(
+          "https://recipeapp-b5683-default-rtdb.firebaseio.com/recipes.json",
+          {
+            method: "POST",
+            body: JSON.stringify(recipe),
+            headers: {
+              "Content-Type": "application/json",
+            },
+          }
+        );
+        // Optionally, handle success (e.g., notifying the user the operation was successful)
+      } catch (error) {
+        console.error("Error adding recipe:", error);
+        // Optionally, handle the error (e.g., notifying the user of the failure)
+      }
     }
+    
 
     addRecipeHandler(recipe);
   };
